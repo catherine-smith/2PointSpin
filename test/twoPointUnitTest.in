@@ -1,0 +1,15 @@
+5          ! number of fake .dat files to be read (list below:)
+test1.dat
+test2.dat
+test3.dat
+test4.dat
+test5.dat
+2          ! number of threads to be used in calculation
+0.5  0.1   ! omega  B
+0   0   ! Reference coordinate
+1e-5       ! Energy difference tolerance for determining "equal" energies (meV)
+1e-3       ! Tolerance for coefficient size
+0   6   2  ! r_min  r_max  r_step (in nm)
+0  10  	   ! theta_min  theta_max (in degrees)
+2	   ! arc length (in units of pi) for theta iterations
+ReadTest.out
